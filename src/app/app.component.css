@@ -1,27 +1,13 @@
 h3 {
     color: dodgerblue;
 }
-/*
-.success-alert {
-    border-color: darkgreen;
-    color: darkgreen;
-    background-color: darkseagreen;
-    padding: 10px;
-    border: 2px;
-    border-style: solid;
-    border-radius: 10px;
-    margin: 5px;
-    display: inline-block;
-}
- */
 
 .alert {
     padding: 10px;
-    border: 2px;
-    border-style: solid;
+    border: 2px solid;
     border-radius: 10px;
     margin: 5px;
-    display: inline-block;
+    display: table;
 }
 
 .warning-alert {

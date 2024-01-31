@@ -1,9 +1,9 @@
 <button class="btn btn-primary" (click)="onToggle()">Toggle details</button>
 <p *ngIf="toggleSecret">Secret password = tuna</p>
 <div
-    *ngFor="let loggedClick of loggedClicks"
-    [ngStyle]="{backgroundColor: loggedClick >= 5 ? 'blue' : 'transparent'}"
-    [ngClass]="{'white-text': loggedClick >= 5}"
+    *ngFor="let loggedClick of loggedClicks; let i = index"
+    [ngStyle]="{backgroundColor: i >= 4 ? 'blue' : 'transparent'}"
+    [ngClass]="{'white-text': i >= 4}"
 >
   {{ loggedClick }}
 </div>

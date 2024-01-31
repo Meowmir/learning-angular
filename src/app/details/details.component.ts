@@ -11,6 +11,6 @@ export class DetailsComponent {
 
   onToggle() {
     this.toggleSecret = !this.toggleSecret;
-    this.loggedClicks.push(this.loggedClicks.length + 1);
+    this.loggedClicks.push(new Date());
   }
 }

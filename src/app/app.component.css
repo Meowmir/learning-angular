@@ -2,22 +2,7 @@ h3 {
     color: dodgerblue;
 }
 
-.alert {
-    padding: 10px;
-    border: 2px solid;
-    border-radius: 10px;
-    margin: 5px;
-    display: table;
-}
-
-.warning-alert {
-    color: darkred;
-    background-color: indianred;
-    border-color: darkred;
-}
-.success-alert {
-    border-color: darkgreen;
-    color: darkgreen;
-    background-color: darkseagreen;
+.odd {
+    color: orangered;
 }
 

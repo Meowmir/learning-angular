@@ -1,5 +1,5 @@
 import {Component, OnInit} from "@angular/core";
-import { RecipeModel } from "../recipe.model";
+import { Recipe } from "../recipe";
 import {RecipeService} from "../recipe.service";
 
 @Component({
@@ -8,7 +8,7 @@ import {RecipeService} from "../recipe.service";
   styleUrl: "./recipe-list.component.css",
 })
 export class RecipeListComponent implements OnInit {
-  recipes: RecipeModel[]
+  recipes: Recipe[]
 
   constructor(private recipeService: RecipeService) {
   }

@@ -1,23 +1,7 @@
-h3 {
-    color: dodgerblue;
+input.ng-invalid.ng-touched {
+    border: 1px solid red;
 }
 
-.alert {
-    padding: 10px;
-    border: 2px solid;
-    border-radius: 10px;
-    margin: 5px;
-    display: table;
+.help-block {
+    color: red;
 }
-
-.warning-alert {
-    color: darkred;
-    background-color: indianred;
-    border-color: darkred;
-}
-.success-alert {
-    border-color: darkgreen;
-    color: darkgreen;
-    background-color: darkseagreen;
-}
-
